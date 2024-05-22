@@ -13,11 +13,18 @@ Note: use "gcloud projects lis"t to get all the project list
 ![image](https://github.com/suragsp/Deploying-a-Python-Application-on-GKE/assets/104720115/d42ae2aa-6a7a-4043-944f-db76c496ba6e)
 
 Step 4: Create a GKE Cluster
-Use Command - gcloud container clusters create my-gke-cluster --zone us-central1-a --num-nodes 3 --machine-type e2-medium --disk-size 10GB
-
 You would need to install Kubernates API if not Installed - https://console.cloud.google.com/apis/library/container.googleapis.com
+<h1></h1>
 
 ![image](https://github.com/suragsp/Deploying-a-Python-Application-on-GKE/assets/104720115/0ea3cbfa-928e-4f02-a5f9-06b2c9d87740)
+
+Use Command - gcloud container clusters create my-gke-cluster --zone us-central1-a --num-nodes 3 --machine-type e2-medium --disk-size 10GB
+
+![image](https://github.com/suragsp/Deploying-a-Python-Application-on-GKE/assets/104720115/d6273c72-bae2-480a-acb1-6d16eb10408d)
+
+
+
+
 
 
 
